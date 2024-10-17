@@ -189,3 +189,7 @@ h3 {
   justify-content: space-evenly;
   align-items: center;
 }
+
+.iconos:hover {
+  background-color: #ffa100;
+}
