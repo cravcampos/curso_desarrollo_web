@@ -28,31 +28,32 @@
 
         <div class="camisa">
             <img src="img/3.jpg" alt="Imagen del producto" class="camisa__imagen">
-        </div>
 
-        <div class="camisa__contenido">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, blanditiis est ab reiciendis itaque
-                tempore placeat autem perferendis delectus hic aut tenetur, fugit officiis at ipsam nemo inventore,
-                saepe dolorum!
-            </p>
 
-            <form class="formulario">
-                <select>
-                    <option disabled selected>-- Seleccionar Talla --</option>
-                    <option value="">XS</option>
-                    <option value="">S</option>
-                    <option value="">M</option>
-                    <option value="">L</option>
-                    <option value="">XL</option>
-                    <option value="">XXL</option>
-                    <option value="">XXXL</option>
-                </select>
+            <div class="camisa__contenido">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, blanditiis est ab reiciendis itaque
+                    tempore placeat autem perferendis delectus hic aut tenetur, fugit officiis at ipsam nemo inventore,
+                    saepe dolorum!
+                </p>
 
-                <input type="number" min="1">
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>Seleccionar Talla</option>
+                        <option value="">XS</option>
+                        <option value="">S</option>
+                        <option value="">M</option>
+                        <option value="">L</option>
+                        <option value="">XL</option>
+                        <option value="">XXL</option>
+                        <option value="">XXXL</option>
+                    </select>
 
-                <input type="submit" value="Agregar al carrito">
-            </form>
+                    <input class="formulario__campo" type="number" min="1" placeholder="Seleccione Cantidad">
+
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div><!--.camisa-->
         </div>
     </main>
 
