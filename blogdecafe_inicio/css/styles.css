@@ -256,3 +256,11 @@ img {
 .curso__info {
   font-size: 2rem;
 }
+
+/*Contacto*/
+.imagen-bg {
+  background-image: url(../img/contacto.jpg);
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
